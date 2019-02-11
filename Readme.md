@@ -1,5 +1,5 @@
-## Grep
-run :
+### Grep File Manipulation
+run this command to search pattern:
 ```sh
-node app.js give_input
+node app.js <string> <filename>
 ```
