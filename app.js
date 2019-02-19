@@ -11,8 +11,7 @@ let rdFile = readline.createInterface({
 
 rdFile.on('line', (line) => {
 
-     if((line.toLowerCase()).split(" ").indexOf(input.toLowerCase()) > -1) {
+     if((line.toLowerCase()).indexOf(input.toLowerCase()) > -1 ) {
         console.log(line);
     }
-     else {return false;}
  });
